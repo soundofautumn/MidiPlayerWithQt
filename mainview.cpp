@@ -18,8 +18,9 @@ MainView::MainView(QWidget *parent) :
         pianoWidget(new PianoWidget(this)),
         pictureWidget(new PictureWidget(this)) {
     ui->setupUi(this);
+    setWindowFlags(Qt::MSWindowsFixedSizeDialogHint);
     pianoWidget->setGeometry(20, 20, 1200, 100);
-    pictureWidget->setGeometry(20, 150, 600, 500);
+    pictureWidget->setGeometry(20, 140, 1000, 400);
     player->setPianoWidget(pianoWidget);
     connect(ui->chooseMidi, &QPushButton::clicked, this, &MainView::chooseFile);
     connect(ui->playMidi, &QPushButton::clicked, this, &MainView::play);

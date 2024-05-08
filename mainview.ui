@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1100</width>
+    <width>1080</width>
     <height>661</height>
    </rect>
   </property>
@@ -19,13 +19,16 @@
   <property name="windowTitle">
    <string>时代音画</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>780</x>
-     <y>160</y>
-     <width>301</width>
-     <height>491</height>
+     <x>830</x>
+     <y>560</y>
+     <width>241</width>
+     <height>91</height>
     </rect>
    </property>
    <property name="title">
@@ -34,10 +37,10 @@
    <widget class="QPushButton" name="chooseMidi">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>100</width>
-      <height>40</height>
+      <x>20</x>
+      <y>50</y>
+      <width>90</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="text">
@@ -47,9 +50,9 @@
    <widget class="QLineEdit" name="midiName">
     <property name="geometry">
      <rect>
-      <x>32</x>
-      <y>120</y>
-      <width>221</width>
+      <x>20</x>
+      <y>20</y>
+      <width>211</width>
       <height>20</height>
      </rect>
     </property>
@@ -60,10 +63,10 @@
    <widget class="QPushButton" name="playMidi">
     <property name="geometry">
      <rect>
-      <x>164</x>
-      <y>200</y>
-      <width>100</width>
-      <height>40</height>
+      <x>140</x>
+      <y>50</y>
+      <width>90</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="text">

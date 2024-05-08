@@ -126,7 +126,7 @@ void PictureWidget::paintEvent(QPaintEvent *event) {
         rect.moveCenter(rect.topLeft());
 
         painter.save();
-        painter.translate(width() / 2, height() / 2);
+        painter.translate(width() / 2.0, height() / 2.0);
         painter.translate(center);
         QTransform trans;
         const double step = 360.0 / imageList.size();
